@@ -129,3 +129,53 @@ footer{
     color:white;
     padding:15px 0;
 }
+
+
+@media (max-width:768px){
+
+
+
+    header h1{
+        font-size:28px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+
+    .hero-content{
+        flex-direction:column-reverse;
+        text-align:center;
+    }
+
+    .hero img{
+        width:150px;
+        margin-bottom:20px;
+    }
+
+    .hero .text{
+        padding:10px;
+    }
+
+    .hero h2{
+        font-size:32px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+
+    .section{
+        padding:25px;
+    }
+
+
+    .skills-list{
+        justify-content:center;
+    }
+
+}
